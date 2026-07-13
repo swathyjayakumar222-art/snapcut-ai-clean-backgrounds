@@ -77,14 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "SnapCut AI — Instant AI background removal" },
+      { name: "description", content: "Studio-grade AI background removal in under 5 seconds. Free to start." },
+      { name: "author", content: "SnapCut AI" },
+      { property: "og:title", content: "SnapCut AI — Instant AI background removal" },
+      { property: "og:description", content: "Studio-grade AI background removal in under 5 seconds." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
